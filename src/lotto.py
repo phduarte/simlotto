@@ -31,7 +31,7 @@ def simulate_sena(*numbers):
         return "Bad luck! You didn't hit any."
 
     if len(hit) == 6:
-        return "You got it! You're the Winner!"
+        return "Congrats! You're the Winner!"
     
     sequence = ', '.join(str(i) for i in hit)
 
